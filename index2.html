@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+		<title>Curs html session 11</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/grid.css">
+		<link rel="stylesheet" href="./css/myPage2.css">
+		
+	<head>
+
+	<body>
+		<div class="container">
+			<h1 onClick="luca('Erika')">Click me Luca </h1>
+			<div class="calculator-container">		
+				<div class="row">
+					<p id="output" class="display-result col-md-12">0</p>
+				</div>
+				<div class="row calc-row">
+				   <button class="col-md-6" onClick='clearCalculator()'>C</button>
+				   <button class="col-md-3" onClick='calculatePercentage()'>%</button>
+				   <button class="col-md-3" onClick='handleButtonClick("/")'>/</button>
+				</div>
+				<div class="row calc-row">
+				   <button class="col-md-3" onClick='handleButtonClick(7)'>7</button>
+				   <button class="col-md-3" onClick='handleButtonClick(8)'>8</button>
+				   <button class="col-md-3" onClick='handleButtonClick(9)'>9</button>
+				   <button class="col-md-3" onClick='handleButtonClick("*")'>X</button>
+				</div>
+				<div class="row calc-row">
+				   <button class="col-md-3" onClick='handleButtonClick(4)'>4</button>
+				   <button class="col-md-3" onClick='handleButtonClick(5)'>5</button>
+				   <button class="col-md-3" onClick='handleButtonClick(6)'>6</button>
+				   <button class="col-md-3" onClick='handleButtonClick("-")'>-</button>
+				</div>
+				<div class="row calc-row">
+				   <button class="col-md-3" onClick='handleButtonClick(1)'>1</button>
+				   <button class="col-md-3" onClick='handleButtonClick(2)'>2</button>
+				   <button class="col-md-3" onClick='handleButtonClick(3)'>3</button>
+				   <button class="col-md-3" onClick='handleButtonClick("+")'>+</button>
+				</div>
+				<div class="row calc-row">
+				  <button class="col-md-6 left-rounded" onClick='handleButtonClick(0)'>0</button>
+				  <button class="col-md-3" onClick='handleButtonClick()'>.</button>
+				  <button class="col-md-3 right-rounded" onClick='testCalculate()'>=</button>
+				</div>
+			</div>
+		</div>
+		<script src="./myJavascript2.js" > </script>
+	</body>
+</html>

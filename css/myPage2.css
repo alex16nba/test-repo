@@ -1,0 +1,44 @@
+body {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.calculator-container {
+	width: 300px;
+	margin: 50px auto;
+	font-size: 20px;
+}
+
+.display-result {
+	background-color: rgb(201, 201, 201);
+	text-align: right;
+	padding: 15px;
+	border: 3px solid #fff;
+	border-radius: 10px 10px 0 0;
+}
+
+button {
+	background-color: rgb(201, 201, 201);
+	font-size: 20px;
+	color: black;
+	border: 3px solid #fff;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgb(182, 178, 178);
+
+}
+
+.calc-row {
+	margin-top: 10px;
+}
+
+.left-rounded {
+	border-bottom-left-radius: 10px;
+}
+
+.right-rounded {
+	border-bottom-right-radius: 10px;
+}
